@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Create a Custom Postcard!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Fill in your name and your friend's name to create your custom postcard!</h1>
+    <form action="/output" method="post">
+     <label for="personOne">Enter a name</label>
+     <input id="personOne" name="personOne" type="text">
+     <label for="personTwo">Enter another Name</label>
+     <input id="personTwo" name="personTwo" type="text">
+     <label for="noun">Enter an animal</label>
+     <input id="noun" name="noun" type="text">
+     <label for="verb">Enter a past tense verb</label>
+     <input id="verb" name="verb" type="text">
+     <label for="adjective">Enter an adjective</label>
+     <input id="adjective" name="adjective" type="text">
+     <button type="submit">Go!</button>
+    </form>
+  </body>
+</html>
